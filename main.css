@@ -1,0 +1,294 @@
+body{
+    overflow-x: none;
+    background: rgb(245, 246, 248) !important;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.sidebar{
+    position: fixed;
+    width: 20%;
+    float: right;
+    /* overflow: auto; */
+    max-height: 600px
+}
+
+#body_card{
+  width:95%;
+  margin-left:2%;
+  margin-bottom:8%;
+}
+/* @media(max-width: 990px){
+  .body_card{  
+    width: 100%;
+  }
+} */
+.topbar{
+background: #000;
+color:#fff;
+padding: 20px;
+position: fixed;
+width: 100%;
+z-index: 99;
+}
+.posts{
+background: #fff;
+padding: 40px;
+}
+@media(max-width: 990px){
+.sidebar{
+    position: relative;
+    width: 100%;
+}
+}
+#mainh1{
+  font-family:"Droid Sans", sans-serif;
+  font-size:1.44444rem;
+  font-weight: 600;
+  
+  font-style: normal;
+  Line-height:40px;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  
+  margin-bottom: 40px;
+}
+
+#accelh{
+font-family: "Droid Sans", sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 25px;
+}
+.accelp{
+
+font-family: "Droid Sans","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+font-size: .88889rem;
+font-weight: 400;
+text-rendering: optimizeLegibility;
+line-height: 1.6;
+color: rgb(50,50, 50);
+}
+#agenth{
+font-family: "Droid Sans", sans-serif;
+font-size: 24px;
+font-weight: 700;
+}
+#agentp{
+font-family: "Droid Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+Font-size: 16px;
+font-weight: 400;
+color: rgb(46,46,46);
+}
+.carth{
+font-family: "Droid Sans", sans-serif;
+font-size: 16px;
+font-weight: 700;
+}
+.cartp{
+font-family: "Droid Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+font-size: 14px;
+font-weight: 400;
+color: rgb(46,46,46);
+}
+#footer{
+background-color: black;
+}
+#footfont{
+color:rgb(138, 138, 138);
+font-weight: 400px;
+font-size: 12px;
+line-height:25px;
+font-family: "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#ulf li{
+display: inline-block;
+list-style: none;
+color:rgb(138, 138, 138);
+font-weight: 400px;
+font-size: 12px;
+line-height:25px;
+font-family: "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#foota{
+color: rgb(138,138,138);
+}
+#foota:hover{
+color: rgb(192,206,218)
+}
+#navbar{
+background-color: black;
+height: 54px;
+}
+#suma{
+list-style: none;
+font-family: "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 18px;
+font-weight: 400;
+color: rgb(46,46,46,);
+padding-top: 15px;
+line-height: 2em;
+
+}
+/* #suma li::before {
+content: '✓';
+
+} */
+ul.checkme li:before {
+content: '\f00c';
+font-family: FontAwesome;
+margin-right: 8px;
+margin-left: -28px;
+position: absolute;
+}
+.alpha{
+position: relative;
+display: block;
+padding: 1.25rem 1rem;
+font-size: .88889rem;
+line-height: 1;
+font-family: "Droid Sans","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+font-size: 16px;
+font-weight: 400;
+text-decoration:none;
+color: #2f2f2f;
+}
+
+/* collapsable css */
+.collapsible {
+    background-color: #fafafa;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #fafafa;
+    border: none;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: #248acb;
+    font-weight: bold;
+    float: left;
+    margin-right:5px
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    border: 1px solid #c0cedb;
+    border-top: none;
+  }
+
+  .innercontent{
+    padding: 0 18px;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
+  /* collapsable css end */
+
+
+/* remove outline   */
+.collapsible:active{
+	outline: none;
+}
+
+.m5{
+    margin-bottom: 5px;
+}
+
+.listdivstyle::before{
+    content: '\f144';
+    font-family: FontAwesome;
+    margin-right: 10px;
+    color: #c0cedb;
+}
+
+.read-more {
+    color: #c0cedb;
+}
+.read-more:hover {
+    color: #121519;
+}
+
+.read-more:before {
+    content: '\f0d7';
+    margin-left: 8px;
+    font-family: FontAwesome;
+}
+
+.read-more.is-active:before {
+    content: '\f0d8';
+    margin-left: 8px;
+    font-family: FontAwesome;
+    text-decoration: none;
+}
+
+#collaps{
+    color: #248acb;
+    border: none;
+    background: white;
+    outline: none;
+}
+
+#expand{
+    color: #248acb;
+    border: none;
+    background: white;
+    outline: none;
+}
+
+/* frequently asked question collaps */
+.collapsible2 {
+    background-color: #fafafa;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .activein, .collapsible2:hover {
+    background-color: #fafafa;
+    border: none;
+  }
+  
+  .collapsible2:after {
+    content: '\f107';
+    font-family: FontAwesome;
+    color: #138acb;
+    float: right;
+    /* margin-right:5px */
+  }
+  
+  .activein:after {
+    content: "\f106";
+  }
+
+  .content2 {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    border: 1px solid #c0cedb;
+    border-top: none;
+    border-bottom: none;
+  }
