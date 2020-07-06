@@ -1,0 +1,76 @@
+
+.wrapper.activity.media.activity-wrapper {
+    border: 1px solid #ddd;
+}
+.wrapper.activity-wrapper {
+    margin: 30px 0;
+    background: #d3d3d3;
+    overflow: auto;
+    position: relative;
+}
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.embed-responsive-16by9 {
+    padding-bottom: 56.25%;
+}
+audio,
+video {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 100%;
+}
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+
+
+    .video-item,
+    .video-thumb {
+        width: 100% !important;
+        float: left;
+        .img-thumbnail,
+        h4.media-library-item-title,
+        p.media-library-item-summary {
+            display: inline-block;
+            float:left;
+        }
+
+        .img-thumbnail {
+            width: 25%;
+            padding: 0;
+            border: 0;
+            border-right: 1px solid #222222;
+            outline: 100px solid rgba(255, 255, 255, 0);
+            outline-offset: -100px;
+        }
+
+        h4.media-library-item-title,
+        p.media-library-item-summary {
+            width: 75%;
+            padding: 8px;
+            margin: 0;
+            color: #ffffff;
+        }
+
+        p.media-library-item-summary {
+            padding-top: 0;
+        }
+    }
+}
+
