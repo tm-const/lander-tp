@@ -44,11 +44,12 @@ video {
     .video-thumb {
         width: 100% !important;
         float: left;
+
         .img-thumbnail,
         h4.media-library-item-title,
         p.media-library-item-summary {
             display: inline-block;
-            float:left;
+            float: left;
         }
 
         .img-thumbnail {
